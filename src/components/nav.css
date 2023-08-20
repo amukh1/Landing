@@ -1,0 +1,42 @@
+.nav {
+    background-color: rgb(14, 14, 14);
+    margin: 0;
+    padding: 25px;
+}
+
+.nt {
+    transition: all 0.4s ease-in-out;
+    color: white;
+}
+
+.nt:hover {
+    color: rgb(158, 189, 255);
+    transition: 0.4s;
+}
+
+.nit {
+    cursor: pointer;
+}
+
+.nit:hover {
+    font-size: 3rem;
+}
+
+.navitems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+}
+
+.name {
+    font-size: 4rem;
+}
+
+/* rgb(158,189,255) */
